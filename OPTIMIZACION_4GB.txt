@@ -1,0 +1,18 @@
+=== ARGUMENTOS JVM (Launcher > Editar perfil > Argumentos JVM) ===
+Reemplaza TODO lo que haya por esto (2 GB fijos, evita tirones por el GC):
+
+-Xms2G -Xmx2G -XX:+UseG1GC -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=8M -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:+ParallelRefProcEnabled -XX:-UseAdaptiveSizePolicy -Dfml.ignoreInvalidMinecraftCertificates=true
+
+Si tu PC se queda sin RAM, cambia 2G por 1536M (1.5 GB).
+Java: usa Java 21 (Temurin).
+
+=== MODS (reemplazan Fabulously Optimized) ===
+Sodium, Lithium, FerriteCore, ImmediatelyFast, Entity Culling, ModernFix,
+More Culling, Dynamic FPS, Sodium Extra (para apagar nubes/particulas/etc.), + PvP Lite.
+NO uses Iris ni shaders.
+
+=== WINDOWS (PC del gobierno) ===
+- Cierra Chrome/Discord/antivirus pesado mientras juegas.
+- Plan de energia: Alto rendimiento.
+- Prioridad Alta a javaw.exe en el Administrador de tareas.
+- Resource packs: usa solo packs de 16x. Nada de 32x o mas.
